@@ -5,7 +5,7 @@ train: ../FireImg/images/train2017/  # 128 images
 val: ../FireImg/images/train2017/  # 128 images
 
 # number of classes
-nc: 1
+nc: 2
 
 # class names
-names: [ 'fire' ]
+names: [ 'fire', 'smoke' ]
