@@ -1,8 +1,9 @@
 #train and val datasets (image directory or *.txt file with image paths)
 
 # train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
-train: ./ForestFireDetection/FireImg/images/img/ 
-val: ./ForestFireDetection/FireImg/labels/lbl/  
+train: ./ForestFireDetection/train 
+val: ./ForestFireDetection/validate
+test: ./ForestFireDetection/validate
 
 # number of classes
 nc: 2
